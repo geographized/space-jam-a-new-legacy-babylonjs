@@ -119,3 +119,9 @@ engine.runRenderLoop(function () {
 window.addEventListener("resize", function () {
   engine.resize();
 });
+
+const environment = new Environment(scene, engine);
+  environment.init();
+
+  import {Environment} from "./environment"
+
